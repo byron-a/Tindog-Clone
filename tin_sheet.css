@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    color: white;
+    
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+/* navbar and contents................................... */
+
+.navsection-content {
+background-color: #ff4c68;
+padding: 4% 10% 0;
+/* height: 680px; */
+}
+
+.container-items {
+   padding: 0 5%;
+}
+
+.navContent {
+    margin-left:50%;
+}
+
+
+.nav-item {
+    margin: 0 7%;
+    font-weight: 500;
+}
+
+.nav-item a:hover {
+    color: white;
+}
+.nav-item a {
+    color: #ffa6b4;
+}
+
+   @media screen and (max-width:1000px) {
+.navContent, .nav-item {
+    margin: 0 ;
+}
+    .navbar-nav {
+        width: fit-content;
+    }
+   } 
+
+   /* nav content............................................... */
+
+.content {
+padding: 5% 5% 0;
+
+   }
+
+.leftContent h1 {
+    line-height: 1.5;
+    font-size: 350%;
+    text-align: left;
+   }
+.leftContent button {
+    margin: 3% 4% 0 0;
+}
+
+.rightContent img {
+    margin: 0 0 0 18%;
+    transform: rotate(20deg);
+    height: 35rem;
+
+}
+
+.rightContent, .leftContent {
+    height: 68vh;
+}
+
+@media screen and (max-width:1000px) {
+    .rightContent img {
+        transform: rotate(0);
+        margin: 15% 0;
+        
+    }
+
+    .rightContent {
+        text-align: center;
+        height: auto;
+    }
+
+    .leftContent {
+        text-align: center;
+        height: auto;
+    }
+}
+
+/* features................................................................ */
+
+.features {
+    background-color: white;
+    padding: 10%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+ .feature-item {
+    padding: 0 6%;
+ }
+
+ .feature-item i {
+    margin-bottom: 5%;
+    color: #ef8172;
+ }
+
+ .feature-item p {
+    color:grey;
+ }
+
+/* testimonial............................................................... */
+
+.testimonial-content {
+    background-color: #ef8172;
+}
+
+.top-test_content {
+padding: 7% 13%;
+}
+
+.top-test_content h2 {
+    line-height:1.8;
+    font-size: 250%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top-test_content span {
+    color: white; 
+    font-style:italic;
+}
+
+.top-test_content img {
+    border-radius: 100%;
+    height:100px;
+    margin: 30px 15px;
+}
+
+.down-test_content {
+    text-align: center;
+    padding: 0 3% 4%;
+}
+.down-test_content img {
+    width: 15%;
+    margin: 3% 2%;
+}
+
+
+/* pricing and card,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.pricing {
+    padding: 0% 0 10%;
+}
+.card_title {
+    padding: 10% 10% 5%;
+}
+
+.card {
+margin: 2%;
+}
+
+.card_title h2 {
+    font-size: 300%;
+}
+
+.card_title p {
+    font-size: larger;
+    color:grey;   
+}
+
+.card-text {
+    color:grey;
+}
+
+.card-header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    padding: 5% 0;
+}
+
+.card-title {
+    font-size: 250%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 3%;
+}
+
+.card-body a {
+    display: block;
+}
+
+.card-body a:hover {
+    background-color: black;
+}
+
+@media screen and (max-width:700px) {
+    .card {
+        margin: 3% 15%;
+    }
+}
+
+
+/* Call to action....................................................... */
+
+.CTA {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 10%;
+    
+}
+
+.CTA h2 {
+    font-size: 310%;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 4% ;
+}
+
+.CTA button {
+    margin: 0 1%;
+}
+
+/* footer............................... */
+
+.footer {
+    padding: 8%;
+    text-align: center;
+}
+
+
+.footer i {
+    margin: 0 0.8% 2%;
+}
+
+.footer p {
+    color: grey;
+    margin: 0;
+    font-family:'Montserrat', sans-serif ;
+}
+.footer p:nth-child(3) {
+    font-size: 70%;
+    margin-top: 2px;
+
+}
+
+.scroll-up {
+    color: #ef8172;
+    float: right;
+    position: sticky;
+    bottom: 40px;
+    right: 20px;
+}
+
+
+.scroll-up:hover {
+    color:#ff4c68;
+    transform: scale3d();
+}
