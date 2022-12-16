@@ -7,4 +7,4 @@ A clone of Tindog main web page, built with HTML & CSS/BOOTSTRAP.
 ![](./image/tindogbottompage.png)
 
 ## Link
- [Live Site](https://byron-a.github.io/Tindog-Clone/)
+Website [Live Site](https://byron-a.github.io/Tindog-Clone/)
